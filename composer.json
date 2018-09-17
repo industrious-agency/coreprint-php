@@ -1,0 +1,30 @@
+{
+    "name": "industrious/coreprint-php",
+    "description": "A PHP Wrapper for the Coreprint API",
+    "keywords": ["coreprint", "php", "wrapper"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Industrious\\Coreprint\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Industrious\\Coreprint\\": "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
